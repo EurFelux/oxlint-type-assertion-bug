@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "oxlint"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "oxlint": "^1.56.0",
     "oxlint-tsgolint": "^0.17.1",
     "typescript": "~5.8.3"
   }
