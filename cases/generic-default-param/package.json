@@ -1,0 +1,12 @@
+{
+  "name": "repro-generic-default-param",
+  "private": true,
+  "scripts": {
+    "lint": "oxlint --tsconfig tsconfig.json repro.ts"
+  },
+  "devDependencies": {
+    "oxlint": "1.56.0",
+    "oxlint-tsgolint": "0.17.2",
+    "typescript": "~5.8.0"
+  }
+}
