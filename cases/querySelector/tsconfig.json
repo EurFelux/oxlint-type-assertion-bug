@@ -5,7 +5,8 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "noEmit": true
+    "noEmit": true,
+    "types": []
   },
   "include": ["repro.ts"]
 }
